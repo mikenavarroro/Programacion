@@ -22,11 +22,11 @@ int main(){
 
  	if(abc > 0){
 		x1= (-b + sqrt (abc))/2 * a; 
- 		x2= (-b - sqrt ((b * b)-(4 * a * c)))/2 * a;
+ 		x2= (-b - sqrt ((b * b)-(4 * a * c)))/(2 * a);
 		printf ("x1 = %.2f \n", x1);
 		printf ("x2 = %.2f \n", x2);
 	}else if (abc == 0){
-		x1= (-b) / 2 * a;
+		x1= (-b) / (2 * a);
 		printf ("La ecuacion solo tiene una solucion y es %.2f\n", x1);
 	}else {
 		z = 2 * a;
