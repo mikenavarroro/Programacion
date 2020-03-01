@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main(){
-	float x1, x2, a, b, c, abc, z;
+	float x1, x2, a, b, c, discriminante;
 
 	printf ("Este programa resuelve ecuaciones de segundo grado\n");
 	printf ("a = ");
@@ -18,20 +18,19 @@ int main(){
 	printf ("c = ");
 	scanf ("%f", &c);
  	
- 	abc = (b * b) - (4 * a * c);
+ 	discriminante = (b * b) - (4 * a * c);
 
- 	if(abc > 0){
-		x1= (-b + sqrt (abc))/2 * a; 
- 		x2= (-b - sqrt ((b * b)-(4 * a * c)))/(2 * a);
+ 	if(discriminante > 0){
+		x1= (-b + sqrt (discriminante))/(2 * a); 
+ 		x2= (-b - sqrt (discriminante))/(2 * a);
 		printf ("x1 = %.2f \n", x1);
 		printf ("x2 = %.2f \n", x2);
-	}else if (abc == 0){
+	}else if (discriminante == 0){
 		x1= (-b) / (2 * a);
 		printf ("La ecuacion solo tiene una solucion y es %.2f\n", x1);
 	}else {
-		z = 2 * a;
-		printf ("x1 = (-%.2f+(sqrt (%.2f)i)) / %.2f\n", b, -abc, z);
-		printf ("x1 = (-%.2f-(sqrt (%.2f)i)) / %.2f\n", b, -abc, z);
+		printf ("x1 = (-%.2f+(sqrt (%.2f)i)) / %.2f\n", b, -discriminante, 2*a);
+		printf ("x2 = (-%.2f-(sqrt (%.2f)i)) / %.2f\n", b, -discriminante, 2*a);
 	}
 	return 0;
 }
