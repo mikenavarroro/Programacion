@@ -95,379 +95,338 @@ void longitud (void){
     switch (b){
         case 1:{
             printf ("cm - m \n");
-            float c, d;
+            float c;
             printf ("Escribe la cantidad en cent%cmetros \n", 161);
             scanf ("%f", &c);
-            d= c * 0.01;
-            printf ("La equivalencia en metros es: %2.2f m \n", d);
+            printf ("La equivalencia en metros es: %2.2f m \n", c * 0.01);
             break;
         }
         case 2:{
             printf ("cm - km \n");
-            float e, f;
+            float e;
             printf ("Escribe la  cantidad en cent%cmetros \n", 161);
             scanf ("%f", &e);
-            f= e * 0.00001;
-            printf ("La equivalencia en kil%cmetros es: %2.5f km \n", 162, f);
+            printf ("La equivalencia en kil%cmetros es: %2.5f km \n", 162, e * 0.00001);
             break;
         }
         case 3:{
             printf ("cm - in \n");
-            float g, h;
+            float g;
             printf ("Escribe la cantidad en cent%cmetros \n", 161);
             scanf ("%f", &g);
-            h= g * 0.39;
-            printf ("La equivalencia en pulgadas es: %2.3f in \n", h);
+            printf ("La equivalencia en pulgadas es: %2.3f in \n", g * 0.39);
             break;
         }
         case 4:{
             printf ("cm - ft \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en cent%cmetros \n", 161);
             scanf ("%f", &a);
-            b= a * 0.03;
-            printf ("La equivalencia en pies es: %2.3f ft \n", b);
+            printf ("La equivalencia en pies es: %2.3f ft \n", a* 0.03);
             break;
         }
         case 5:{
             printf ("cm - yd \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en cent%cmetros \n", 161);
             scanf ("%f", &a);
-            b= a * 0.01;
-            printf ("La equivalencia en yardas es: %2.2f yd \n", b);
+            printf ("La equivalencia en yardas es: %2.2f yd \n", a * 0.01);
             break;
         }
         case 6:{
             printf ("cm - mi \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en cent%cmetros \n", 161);
             scanf ("%f", &a);
-            b= a * 0.000006;
-            printf ("La equivalencia en millas es: %2.6f mi \n", b);
+            printf ("La equivalencia en millas es: %2.6f mi \n", a * 0.000006);
             break;
         }
         case 7:{
             printf ("m - cm \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en metros \n");
             scanf ("%f", &a);
-            b= a * 100;
-            printf ("La equivalencia en cent%cmetros es: %2.2f \n", 161, b);
+            printf ("La equivalencia en cent%cmetros es: %2.2f \n", 161, a * 100);
             break;
         }
         case 8:{
             printf ("m - km \n");
-            float a, b;
+            float a;
             printf ("Escibe la cantidad en metros \n");
             scanf ("%f", &a);
-            b= a * 0.001;
-            printf ("La equivalencia en kil%cmetros es: %2.3f km \n", 162, b);
+            printf ("La equivalencia en kil%cmetros es: %2.3f km \n", 162, a * 0.001);
             break;
         }
         case 9:{
             printf ("m - in \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en metros \n");
             scanf ("%f", &a);
-            b= a * 39.37;
-            printf ("La equivalencia en pulgadas es: %2.2f in \n", b);
+            printf ("La equivalencia en pulgadas es: %2.2f in \n", a * 39.37);
             break;
         }
         case 10:{
             printf ("m - ft \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en metros \n");
             scanf ("%f", &a);
-            b= a * 3.28;
-            printf ("La equivalencia en pies es: %2.2f ft \n", b);
+            printf ("La equivalencia en pies es: %2.2f ft \n", a * 3.28);
             break;
         }
         case 11:{
             printf ("m - yd \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en metros \n");
             scanf ("%f", &a);
-            b= a * 1.09;
-            printf ("La equivalencia en yardas es: %2.2f yd \n", b);
+            printf ("La equivalencia en yardas es: %2.2f yd \n", a * 1.09);
             break;
         }
         case 12:{
             printf ("m- mi \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en metros \n");
             scanf ("%f", &a);
-            b= a * 0.00062;
-            printf ("La equivalencia en millas es: %2.5f mi \n", b);
+            printf ("La equivalencia en millas es: %2.5f mi \n", a * 0.00062);
             break;
         }
         case 13:{
             printf ("km - cm \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en kil%cmetros \n", 162);
             scanf ("%f", &a);
-            b= a * 100000;
-            printf ("La equivalencia en cent%cmetros es: %2.2f cm \n", 161, b);
+            printf ("La equivalencia en cent%cmetros es: %2.2f cm \n", 161, a * 100000);
             break;
         }
         case 14:{
             printf ("km - m \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en kil%cmetros \n", 162);
             scanf ("%f", &a);
-            b= a * 1000;
-            printf ("La equivalencia en metros es: %2.2f m \n", b);
+            printf ("La equivalencia en metros es: %2.2f m \n", a * 1000);
             break;
         }
         case 15:{
             printf ("km - in \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en kil%cmetros \n", 162);
             scanf ("%f", &a);
-            b= a * 39370.08;
-            printf ("La equivalencia en pulgadas es: %2.2f in \n", b);
+            printf ("La equivalencia en pulgadas es: %2.2f in \n", a * 39379.08);
             break;
         }
         case 16:{
             printf ("km - ft \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en kil%cmetros \n", 162);
             scanf ("%f", &a);
-            b= a * 3280.84;
-            printf ("La equivalencia en pies es: %2.2f ft \n", b);
+            printf ("La equivalencia en pies es: %2.2f ft \n", a * 3280.84);
             break;
         }
         case 17:{
             printf ("km- yd \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en kil%cmetros \n", 162);
             scanf ("%f", &a);
-            b= a * 1093.61;
-            printf ("La equivalencia en yardas es: %2.2f yd \n", b);
+            printf ("La equivalencia en yardas es: %2.2f yd \n", a * 1093.61);
             break;
         }
         case 18:{
             printf ("km - mi \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en kil%cmetros \n", 162);
             scanf ("%f", &a);
-            b= a * 0.62;
-            printf ("La equivalencia en millas es: %2.2f mi \n", b);
+            printf ("La equivalencia en millas es: %2.2f mi \n", a * 0.62);
             break;
         }
         case 19:{
             printf ("in - cm \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en pulgadas \n");
             scanf ("%f", &a);
-            b= a * 2.54;
-            printf ("La equivalencia en cent%cmetros es: %2.2f cm \n", 161, b);
+            printf ("La equivalencia en cent%cmetros es: %2.2f cm \n", 161, a * 2.54);
             break;
         }
         case 20:{
             printf ("in - m \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en pulgadas \n");
             scanf ("%f", &a);
-            b= a * 0.02;
-            printf ("La equivalencia en metros es: %2.2f m \n", b);
+            printf ("La equivalencia en metros es: %2.2f m \n", a * 0.02);
             break;
         }
-        case 21:
+        case 21:{
             printf ("in - km \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en pulgadas \n");
             scanf ("%f", &a);
-            b= a * 0.00002;
-            printf ("La equivalencia en kil%cmetros es: %2.5f km \n", 162, b);
+            printf ("La equivalencia en kil%cmetros es: %2.5f km \n", 162, a * 0.00002);
             break;
+        }
         case 22:{
             printf ("in - ft \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en pulgadas \n");
             scanf ("%f", &a);
-            b= a * 0.08;
-            printf ("La equivalencia en pies es: %2.2f ft \n", b);
+            printf ("La equivalencia en pies es: %2.2f ft \n", a * 0.08);
             break;
         }
         case 23:{
             printf ("in - yd \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en pulgadas \n");
             scanf ("%f", &a);
-            b= a * 0.027;
-            printf ("La equivalencia en yardas es: %2.3f yd \n", b);
+            printf ("La equivalencia en yardas es: %2.3f yd \n", a * 0.027);
             break;
         }
         case 24:{
             printf ("in - mi \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en pulgadas \n");
             scanf ("%f", &a);
-            b= a * 0.000016;
-            printf ("La equivalencia en millas es: %2.6f mi \n", b);
+            printf ("La equivalencia en millas es: %2.6f mi \n", a * 0.000016);
             break;
         }
         case 25:{
             printf ("ft - cm \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en pies \n");
             scanf ("%f", &a);
-            b= a * 30.48;
-            printf ("La equivalencia en cent%cmetros es: %2.2f cm \n", 161, b);
+            printf ("La equivalencia en cent%cmetros es: %2.2f cm \n", 161, a * 30.48);
             break;
         }
         case 26:{
             printf ("ft - m \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en pies \n");
             scanf ("%f", &a);
-            b= a * 0.3;
-            printf ("La equivalencia en metros es: %2.2f m \n", b);
+            printf ("La equivalencia en metros es: %2.2f m \n", a * 0.3);
             break;
         }
         case 27:{
             printf ("ft - km \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en pies \n");
             scanf ("%f", &a);
-            b= a * 0.0003;
-            printf ("La equivalencia en kil%cmetros es: %2.4f km \n", 162, b);
+            printf ("La equivalencia en kil%cmetros es: %2.4f km \n", 162, a * 0.003);
             break;
         }
         case 28:{
             printf ("ft - in \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en pies \n");
             scanf ("%f", &a);
-            b= a * 12;
-            printf ("La equivalencia en pulgadas es: %2.2f in \n", b);
+            printf ("La equivalencia en pulgadas es: %2.2f in \n", a * 12);
             break;
         }
         case 29:{
             printf ("ft - yd \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en pies \n");
             scanf ("%f", &a);
-            b= a * 0.33;
-            printf ("La equivalencia en yardas es: %2.2f yd \n", b);
+            printf ("La equivalencia en yardas es: %2.2f yd \n", a * 0.33);
             break;
         }
         case 30:{
             printf ("ft - mi \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en pies \n");
             scanf ("%f", &a);
-            b= a * 0.00018;
-            printf ("La equivalencia en millas es: %2.5f mi \n", b);
+            printf ("La equivalencia en millas es: %2.5f mi \n", a * 0.00018);
             break;
         }
         case 31:{
             printf ("yd - cm \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en yardas \n");
             scanf ("%f", &a);
-            b= a * 91.44;
-            printf ("La equivalencia en cent%cmetros es: %2.2f cm \n", 161, b);
+            printf ("La equivalencia en cent%cmetros es: %2.2f cm \n", 161, a * 91.44);
             break;
         }
         case 32:{
             printf ("yd - m \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en yardas \n");
             scanf ("%f", &a);
-            b= a * 0.91;
-            printf ("La equivalencia en metros es: %2.2f m \n", b);
+            printf ("La equivalencia en metros es: %2.2f m \n", a * 0.91);
             break;
         }
         case 33:{
             printf ("yd - km \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en yardas \n");
             scanf ("%f", &a);
-            b= a * 0.00091;
-            printf ("La equivalencia en kil%cmetros es: %2.5f km \n", 162, b);
+            printf ("La equivalencia en kil%cmetros es: %2.5f km \n", 162, 0.00091);
             break;
         }
         case 34:{
             printf ("yd - in \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en yardas \n");
             scanf ("%f", &a);
-            b= a * 36;
-            printf ("La equivalencia en pulgadas es: %2.2f in \n", b);
+            printf ("La equivalencia en pulgadas es: %2.2f in \n", a * 36);
             break;
         }
         case 35:{
             printf ("yd - ft \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en yardas \n");
             scanf ("%f", &a);
-            b= a * 3;
-            printf ("La equivalencia en pies es: %2.2f ft \n", b);
+            printf ("La equivalencia en pies es: %2.2f ft \n", a * 3);
             break;
         }
         case 36:{
             printf ("yd - mi \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en yardas \n");
             scanf ("%f", &a);
-            b= a * 0.00056;
-            printf ("La equivalencia en millas es: %2.5f mi \n", b);
+            printf ("La equivalencia en millas es: %2.5f mi \n", a * 0.00056);
             break;
         }
         case 37:{
             printf ("mi - cm \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en millas \n");
             scanf ("%f", &a);
-            b= a * 160934.4;
-            printf ("La equivalencia en cent%cmetros es: %2.2f cm \n", 161, b);
+            printf ("La equivalencia en cent%cmetros es: %2.2f cm \n", 161, a * 160934.4);
             break;
         }
         case 38:{
             printf ("mi - m \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en millas \n");
             scanf ("%f", &a);
-            b= a * 1609.34;
-            printf ("La equivalencia en metros es: %2.2f m \n", b);
+            printf ("La equivalencia en metros es: %2.2f m \n", a * 1609.34);
             break;
         }
         case 39:{
             printf ("mi - km \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en millas \n");
             scanf ("%f", &a);
-            b= a * 1.609;
-            printf ("La equivalencia en kil%cmetros es: %2.3f km \n", 162, b);
+            printf ("La equivalencia en kil%cmetros es: %2.3f km \n", 162, a * 1.609);
             break;
         }
         case 40:{
             printf ("mi - in \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en millas \n");
             scanf ("%f", &a);
-            b= a * 63360;
-            printf ("La equivalencia en pulgadas es: %2.2f in \n", b);
+            printf ("La equivalencia en pulgadas es: %2.2f in \n", a * 63360);
             break;
         }
         case 41:{
             printf ("mi - ft \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en millas \n");
             scanf ("%f", &a);
-            b= a * 5280;
-            printf ("La equivalencia en pies es: %2.2f ft \n", b);
+            printf ("La equivalencia en pies es: %2.2f ft \n", a * 5280);
             break;
         }
         case 42:{
             printf ("mi - yd \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en millas \n");
             scanf ("%f", &a);
-            b= a * 1760;
-            printf ("La equivalencia en yardas es: %2.2f yd \n", b);
+            printf ("La equivalencia en yardas es: %2.2f yd \n", a * 1760);
             break;
         }
         default:printf ("Opci%cn no permitida. Introduce n%cmeros del 1 al 42.\nIntenta de nuevo \n", 162, 163);
@@ -510,272 +469,242 @@ void masa (void){
     switch (c){
         case 1:{
             printf ("mg - g \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en miligramos \n");
             scanf ("%f", &a);
-            b= a * 0.001;
-            printf ("La equivalencia en gramos es: %2.3f g \n", b);
+            printf ("La equivalencia en gramos es: %2.3f g \n", a * 0.001);
             break;
         }
         case 2:{
             printf ("mg - kg \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en miligramos \n");
             scanf ("%f", &a);
-            b= a * 0.000001;
-            printf ("La equivalencia en kilogramos es: %2.6f kg \n", b);
+            printf ("La equivalencia en kilogramos es: %2.6f kg \n", a * 0.000001);
             break;
         }
         case 3:{
             printf ("mg - oz \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en miligramos \n");
             scanf ("%f", &a);
-            b= a * 0.000035;
-            printf ("La equivalencia en onzas es: %2.6f oz \n", b);
+            printf ("La equivalencia en onzas es: %2.6f oz \n", a * 0.000035);
             break;
         }
         case 4:{
             printf ("mg - lb \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en miligramos \n");
             scanf ("%f", &a);
-            b= a * 0.000002;
-            printf ("La equivalencia en libras es: %2.6f lb \n", b);
+            printf ("La equivalencia en libras es: %2.6f lb \n", a * 0.000002);
             break;
         }
         case 5:{
             printf ("mg - ton \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en miligramos \n");
             scanf ("%f", &a);
-            b= a * 0.000000001;
-            printf ("La equivalencia en toneladas es: %2.9f ton \n", b);
+            printf ("La equivalencia en toneladas es: %2.9f ton \n", a * 0.000000001);
             break;
         }
         case 6:{
             printf ("g - mg \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en gramos \n");
             scanf ("%f", &a);
-            b= a * 1000;
-            printf ("La equivalencia en miligramos es: %2.2f mg \n", b);
+            printf ("La equivalencia en miligramos es: %2.2f mg \n", a * 1000);
             break;
         }
         case 7:{
             printf ("g - kg \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en gramos \n");
             scanf ("%f", &a);
-            b= a * 0.001;
-            printf ("La equivalencia en kilogramos es: %2.2f kg \n", b);
+            printf ("La equivalencia en kilogramos es: %2.2f kg \n", a * 0.001);
             break;
         }
         case 8:{
             printf ("g - oz \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en gramos \n");
             scanf ("%f", &a);
-            b= a * 0.035;
-            printf ("La equivalencia en onzas es: %2.3f oz \n", b);
+            printf ("La equivalencia en onzas es: %2.3f oz \n", a * 0.035);
             break;
         }
         case 9:{
             printf ("g - lb \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en gramos \n");
             scanf ("%f", &a);
-            b= a * 0.0022;
-            printf ("La equivalencia en libras es: %2.4f lb \n", b);
+            printf ("La equivalencia en libras es: %2.4f lb \n", a * 0.0022);
             break;
         }
         case 10:{
             printf ("g - ton \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en gramos \n");
             scanf ("%f", &a);
-            b= a * 0.000001;
-            printf ("La equivalencia en toneladas es: %2.6f ton \n", b);
+            printf ("La equivalencia en toneladas es: %2.6f ton \n", a * 0.000001);
             break;
         }
         case 11:{
             printf ("kg - mg \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en kilogramos \n");
             scanf ("%f", &a);
-            b= a * 1000000;
-            printf ("La equivalencia en miligramos es: %2.2f mg \n", b);
+            printf ("La equivalencia en miligramos es: %2.2f mg \n", a * 1000000);
             break;
         }
         case 12:{
             printf ("kg - g \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en kilogramos \n");
             scanf ("%f", &a);
-            b= a * 1000;
-            printf ("La equivalencia en gramos es: %2.2f g \n", b);
+            printf ("La equivalencia en gramos es: %2.2f g \n", a * 1000);
             break;
         }
         case 13:{
             printf ("kg - oz \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en kilogramos \n");
             scanf ("%f", &a);
-            b= a * 35.27;
-            printf ("La equivalencia en onzas es: %2.2f oz \n", b);
+            printf ("La equivalencia en onzas es: %2.2f oz \n", a * 35.27);
             break;
         }
         case 14:{
             printf ("kg - lb \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en kilogramos \n");
             scanf ("%f", &a);
-            b= a * 2.2;
-            printf ("La equivalencia en libras es: %2.2f lb \n", b);
+            printf ("La equivalencia en libras es: %2.2f lb \n", a * 2.2);
             break;
         }
         case 15:{
             printf ("kg - ton \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en kilogramos \n");
             scanf ("%f", &a);
-            b= a * 0.001;
-            printf ("La equivalencia en toneladas es: %2.2f ton \n", b);
+            printf ("La equivalencia en toneladas es: %2.2f ton \n", a * 0.001);
             break;
         }
         case 16:{
             printf ("oz - mg \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en onzas \n");
             scanf ("%f", &a);
-            b= a * 28349.52;
-            printf ("La equivalencia en miligramos es: %2.2f mg \n", b);
+            printf ("La equivalencia en miligramos es: %2.2f mg \n", a * 28349.52);
             break;
         }
         case 17:{
             printf ("oz - g \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en onzas \n");
             scanf ("%f", &a);
-            b= a * 28.34;
-            printf ("La equivalencia en gramos es: %2.2f g \n", b);
+            printf ("La equivalencia en gramos es: %2.2f g \n", a * 28.34);
             break;
         }
         case 18:{
             printf ("oz - kg \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en onzas \n");
             scanf ("%f", &a);
-            b= a * 0.02;
-            printf ("La equivalencia en kilogramos es: %2.2f kg \n", b);
+            printf ("La equivalencia en kilogramos es: %2.2f kg \n", a * 0.02);
             break;
         }
         case 19:{
             printf ("oz - lb \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en onzas \n");
             scanf ("%f", &a);
-            b= a * 0.06;
-            printf ("La equivalencia en libras es: %2.2f lb \n", b);
+            printf ("La equivalencia en libras es: %2.2f lb \n", a * 0.06);
             break;
         }
         case 20:{
             printf ("oz - ton \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en onzas \n");
             scanf ("%f", &a);
-            b= a * 0.000028;
-            printf ("La equivalencia en toneladas es: %2.6f ton \n", b);
+            printf ("La equivalencia en toneladas es: %2.6f ton \n", a * 0.000028);
             break;
         }
         case 21:{
             printf ("lb - mg \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en libras \n");
             scanf ("%f", &a);
-            b= a * 453592.4;
-            printf ("La equivalencia en miligramos es: %2.2f mg \n", b);
+            printf ("La equivalencia en miligramos es: %2.2f mg \n", a * 453592.4);
             break;
         }
         case 22:{
             printf ("lb - g \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en libras \n");
             scanf ("%f", &a);
-            b= a * 453.59;
-            printf ("La equivalencia en gramos es: %2.2f g \n", b);
+            printf ("La equivalencia en gramos es: %2.2f g \n", a * 453.59);
             break;
         }
         case 23:{
             printf ("lb - kg \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en libras \n");
             scanf ("%f", &a);
-            b= a * 0.45;
-            printf ("La equivalencia en kilogramos es: %2.2f kg \n", b);
+            printf ("La equivalencia en kilogramos es: %2.2f kg \n", a * 0.45);
             break;
         }
         case 24:{
             printf ("lb - oz \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en libras \n");
             scanf ("%f", &a);
-            b= a * 16;
-            printf ("La equivalencia en onzas es: %2.2f oz \n", b);
+            printf ("La equivalencia en onzas es: %2.2f oz \n", a * 16);
             break;
         }
         case 25:{
             printf ("lb - ton \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en libras \n");
             scanf ("%f", &a);
-            b= a * 0.00045;
-            printf ("La equivalencia en toneladas es: %2.5f ton \n", b);
+            printf ("La equivalencia en toneladas es: %2.5f ton \n", a * 0.00045);
             break;
         }
         case 26:{
             printf ("ton - mg \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en toneladas \n");
             scanf ("%f", &a);
-            b= a * 1000000000;
-            printf ("La equivalencia en miligramos es: %2.2f mg \n", b);
+            printf ("La equivalencia en miligramos es: %2.2f mg \n", a * 1000000000);
             break;
         }
         case 27:{
             printf ("ton - g \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en toneladas \n");
             scanf ("%f", &a);
-            b= a * 1000000;
-            printf ("La equivalencia en gramos es: %2.2f g \n", b);
+            printf ("La equivalencia en gramos es: %2.2f g \n", a * 1000000);
             break;
         }
         case 28:{
             printf ("ton - kg \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en toneladas \n");
             scanf ("%f", &a);
-            b= a * 1000;
-            printf ("La equivalencia en kilogramos es: %2.2f kg \n", b);
+            printf ("La equivalencia en kilogramos es: %2.2f kg \n", a * 1000);
             break;
         }
         case 29:{
             printf ("ton - oz \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en toneladas \n");
             scanf ("%f", &a);
-            b= a * 35273.96;
-            printf ("La equivalencia en onzas es: %2.2f oz \n", b);
+            printf ("La equivalencia en onzas es: %2.2f oz \n", a * 35273.96);
             break;
         }
         case 30:{
             printf ("ton - lb \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en toneladas \n");
             scanf ("%f", &a);
-            b= a * 2204.62;
-            printf ("La equivalencia en libras es: %2.2f lb \n", b);
+            printf ("La equivalencia en libras es: %2.2f lb \n", a * 2204.62);
             break;
         }
         default: printf ("Intenta de nuevo \n");
@@ -830,11 +759,10 @@ void temperatura (void){
         }
         case 5:{
             printf ("%cK - %cC \n", 167, 167);
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en grados kelvin \n");
             scanf ("%f", &a);
-            b = a - 273.15;
-            printf ("La equivalencia en grados celsius es: %2.2f %cC \n", b, 167);
+            printf ("La equivalencia en grados celsius es: %2.2f %cC \n", a - 273.15, 167);
             break;
         }
         case 6:{
@@ -868,110 +796,98 @@ void presion (void){
     switch (e){
         case 1:{
             printf ("atm - kpa \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en atm%csferas \n", 162);
             scanf ("%f", &a);
-            b= a * 101.325;
-            printf ("La equivalencia en kilopascales es: %2.3f kpa \n", b);
+            printf ("La equivalencia en kilopascales es: %2.3f kpa \n", a * 101.325);
             break;
         }
         case 2:{
             printf ("atm - mmHg \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en atm%csferas \n", 162);
             scanf ("%f", &a);
-            b= a * 1760.127;
-            printf ("La equivalencia en mil%cmetros de mercurio es: %2.3f mmHg \n", 161, b);
+            printf ("La equivalencia en mil%cmetros de mercurio es: %2.3f mmHg \n", 161, a * 1760.127);
             break;
         }
         case 3:{
             printf ("atm - pa \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en atm%csferas \n", 162);
             scanf ("%f", &a);
-            b= a * 101325;
-            printf ("La equivalencia en pascales es: %2.2f pa \n", b);
+            printf ("La equivalencia en pascales es: %2.2f pa \n", a * 101325);
             break;
         }
         case 4:{
             printf ("kpa - atm \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en kilopascales \n");
             scanf ("%f", &a);
-            b= a * 0.0098;
-            printf ("La equivalencia en atm%csferas es: %2.4f atm \n", 162, b);
+            printf ("La equivalencia en atm%csferas es: %2.4f atm \n", 162, a * 0.0098);
             break;
         }
         case 5:{
             printf ("kpa - mmHg \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en kilopascales \n");
             scanf ("%f", &a);
-            b= a * 7.501;
-            printf ("La equivalencia en mil%cmetros de mercurio es: %2.3f mmHg \n", 161, b);
+            printf ("La equivalencia en mil%cmetros de mercurio es: %2.3f mmHg \n", 161, a * 7.501);
             break;
         }
         case 6:{
             printf ("kpa - pa \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en kilopascales \n");
             scanf ("%f", &a);
-            b= a * 1000;
-            printf ("La equivalencia en pascales es: %2.4f pa \n", b);
+            printf ("La equivalencia en pascales es: %2.4f pa \n", a * 1000);
             break;
         }
         case 7:{
             printf ("mmHg - atm \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en mil%cmetros de mercurio \n", 161);
             scanf ("%f", &a);
-            b= a * 0.0013;
-            printf ("La equivalencia en atm%csferas es: %2.4f atm \n", 162, b);
+            printf ("La equivalencia en atm%csferas es: %2.4f atm \n", 162, a * 0.0013);
             break;
         }
         case 8:{
             printf ("mmHg -kpa  \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en mil%cmetros de mercurio \n", 161);
             scanf ("%f", &a);
-            b= a * 0.13;
-            printf ("La equivalencia en kilopascales es: %2.2f kpa \n", b);
+            printf ("La equivalencia en kilopascales es: %2.2f kpa \n", a * 0.13);
             break;
         }
         case 9:{
             printf ("mmHg - pa \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en mil%cmetros de mercurio \n", 161);
             scanf ("%f", &a);
-            b= a * 133.3;
-            printf ("La equivalencia en pascales es: %2.2f pa \n", b);
+            printf ("La equivalencia en pascales es: %2.2f pa \n", a * 133.3);
             break;
         }
         case 10:{
             printf ("pa - atm \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en pascales \n");
             scanf ("%f", &a);
-            b= a * 0.00001;
-            printf ("La equivalencia en atm%csferas es: %2.5f atm \n", 162, b);
+            printf ("La equivalencia en atm%csferas es: %2.5f atm \n", 162, a * 0.00001);
             break;
         }
         case 11:{
             printf ("pa - kpa \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en pascales \n");
             scanf ("%f", &a);
-            b= a * 0.001;
-            printf ("La equivalencia en kilopascales es: %2.4f kpa \n", b);
+            printf ("La equivalencia en kilopascales es: %2.4f kpa \n", a * 0.001);
             break;
         }
         case 12:{
             printf ("pa - mmHg \n");
-            float a, b;
+            float a;
             printf ("Escribe la cantidad en pascales \n");
             scanf ("%f", &a);
-            b= a * 0.0075;
-            printf ("La equivalencia en mil%cmetros de mercurio es: %2.4f mmHg \n", 161, b);
+            printf ("La equivalencia en mil%cmetros de mercurio es: %2.4f mmHg \n", 161, a * 0.0075);
             break;
         }
         default: printf ("Intenta de nuevo \n");
